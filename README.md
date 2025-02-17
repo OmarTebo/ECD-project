@@ -1,20 +1,16 @@
 ## Projects List
 1. Firefighter
-2. GPS Tracker
-3. RV
-4. Spinning Volumetric Display
-5. Visual Proximity Alert (Ard. UNO + Ultrasonic Sensor)
-6. Black Swan 1-way comms (ESP8266)
-7. Drone
-8. [Smart Irrigation System Using ESP32 and Blynk App (ESP32)](https://circuitdigest.com/microcontroller-projects/smart-irrigation-system-using-esp32-and-blynk-app)
-9. Bluetooth Jammer ~~or~~ DeAuth 
-10. Oscilloscope (ESP32)
+2. RV
+3. Smart Blind Stick (Arduino NANO + Ultrasonic Sensor)
+4. Black Swan 1-way comms (ESP8266)
+5. [Smart Irrigation System Using ESP32 and Blynk App (ESP32)](https://circuitdigest.com/microcontroller-projects/smart-irrigation-system-using-esp32-and-blynk-app)
+6. Oscilloscope
 
 ---
 
 # Firefighter
 - main idea: Sensor detects flame or fire giving signal to UNO and it moves to the fire, pumping water at the source
-- src docs: [from circuit digest](https://circuitdigest.com/microcontroller-projects/arduino-fire-fighting-robot-code) & [from gtihub](https://github.com/Circuit-Digest/Arduino-Based-Fire-Fighting-Robot/tree/main)
+- src docs: [from circuit digest](https://circuitdigest.com/microcontroller-projects/arduino-fire-fighting-robot-code) & [from github](https://github.com/Circuit-Digest/Arduino-Based-Fire-Fighting-Robot/tree/main)
 - main component: 
   * Arduino UNO
   * Flame Sensor Module
@@ -81,3 +77,40 @@
 | Capacitive soil Moisture Sensor | 100 |
 | Water level sensor | 25 |
 | Relay Module | 45 - 50 |
+
+# Smart Blind Stick
+- src docs: [circuit-digest](https://circuitdigest.com/microcontroller-projects/arduino-smart-blind-stick)
+- video: [YT - tutorial](https://youtu.be/wOk3h3s507o)
+- main component:
+  * Arduino NANO
+  * Ultrasonic Sensor HC-SR04
+  * Buzzer and LED
+  * 7805  
+  * Resistors
+  * Capacitors
+ 
+  * Perf board
+  * Soldering Kit
+  * 9V batteries
+  * optional remote control:
+    - 433MHz RF transmitter and receiver
+    - Push button
+- Prices:
+
+| Component | price |
+| :---: | :---: |
+| Ultrasonic Sensor HC-SR04 | 40 |
+
+# Oscilloscope
+- src docs: [circuit-digest](https://circuitdigest.com/microcontroller-projects/diy-esp32-oscilloscope)
+- video: [YT - tutorial](https://youtu.be/EaEG2UUcUaQ)
+- main component:
+  * ESP32 Devkit
+  * 1.69” 240x280 Rounded Corner TFT display(ST7789s)
+  * Tactile switches
+  * SPDT switches
+  * 100K resistor
+  * 10K resistor
+  * 100nF capacitor
+  * Copper clad or perfboard
+  * Soldering tools
