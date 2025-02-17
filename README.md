@@ -57,7 +57,7 @@
 | ESP32 | 300 |
 
 # Smart Irrigation System Using ESP32 and Blynk App
-- src docs: [circuit-digest](https://circuitdigest.com/microcontroller-projects/interfacing-soil-moisture-sensor-with-arduino-uno)
+- src docs: [circuit-digest](https://circuitdigest.com/microcontroller-projects/smart-irrigation-system-using-esp32-and-blynk-app)
 - video: [YT - tutorial](https://youtu.be/vFI8M4X1R4k)
 - main components:
   * ESP32
